@@ -1,0 +1,12 @@
+name 'nholuongut-influxdb'
+version '2.0.10'
+
+author 'Alessandro Franceschi'
+license 'Apache2'
+project_page 'http://www.nholuongut.com'
+source 'https://github.com/nholuongut/puppet-influxdb'
+summary 'Puppet module for influxdb'
+description 'This module installs and manages influxdb. Check README for details.'
+dependency 'nholuongut/puppi', '>=2.0.0'
+dependency 'nholuongut/firewall', '>=2.0.0'
+dependency 'nholuongut/monitor', '>=2.0.0'
